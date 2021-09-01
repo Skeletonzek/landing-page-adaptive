@@ -1,0 +1,7 @@
+.header__menu-img {
+  width: 7px;
+  height: 4px;
+  margin-left: 6px;
+  align-self: center;
+  transform: translate(0, 50%);
+}

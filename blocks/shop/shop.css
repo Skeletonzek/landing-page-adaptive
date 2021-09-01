@@ -1,0 +1,34 @@
+@import url(./__nav/shop__nav.css);
+@import url(./__nav-mobile/shop__nav-mobile.css);
+@import url(./__nav-arrow/shop__nav-arrow.css);
+@import url(./__category/shop__category.css);
+@import url(./__category-text/shop__category-text.css);
+@import url(./__category-text/_active/shop__category-text_active.css);
+@import url(./__button-container/shop__button-container.css);
+@import url(./__scroll/shop__scroll.css);
+@import url(./__scroll/_left/shop__scroll_left.css);
+@import url(./__scroll/_right/shop__scroll_right.css);
+@import url(./__items/shop__items.css);
+@import url(./__item/shop__item.css);
+@import url(./__sale/shop__sale.css);
+@import url(./__popup/shop__popup.css);
+@import url(./__popup/_active/shop__popup_active.css);
+@import url(./__popup-button/shop__popup-button.css);
+@import url(./__popup-button-img/shop__popup-button-img.css);
+@import url(./__item-img/shop__item-img.css);
+@import url(./__item-title/shop__item-title.css);
+@import url(./__item-text/shop__item-text.css);
+@import url(./__item-button/shop__item-button.css);
+@import url(./__plus/shop__plus.css);
+@import url(./__mobile-container/shop__mobile-container.css);
+@import url(./__mobile-more/shop__mobile-more.css);
+
+.shop {
+  width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .shop {
+    margin-top: 25px;
+  }
+}

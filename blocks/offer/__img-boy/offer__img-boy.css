@@ -1,0 +1,12 @@
+.offer__img-boy {
+  max-width: 217px;
+  max-height: 197px;
+  margin: 69px 43px 74px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .offer__img-boy {
+    margin-right: 23px;
+  }
+}
+

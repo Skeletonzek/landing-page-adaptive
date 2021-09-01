@@ -1,0 +1,15 @@
+@import url(./__title/brands__title.css);
+@import url(./__bar/brands__bar.css);
+@import url(./__container/brands__container.css);
+@import url(./__img/brands__img.css);
+
+.brands {
+  width: 100%;
+  border-bottom: 1px solid #b2b2b2;
+}
+
+@media screen and (max-width: 640px) {
+  .brands {
+    display: none;
+  }
+}

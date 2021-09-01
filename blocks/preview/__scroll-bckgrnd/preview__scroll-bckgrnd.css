@@ -1,0 +1,17 @@
+.preview__scroll-bckgrnd {
+  height: 100%;
+  position: absolute;
+  right: 3%;
+}
+
+@media screen and (max-width: 900px) {
+  .preview__scroll-bckgrnd {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .preview__scroll-bckgrnd {
+    right: 0;
+  }
+}

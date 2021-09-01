@@ -1,0 +1,12 @@
+.offer__img-button {
+  width: 168px;
+  height: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+  .offer__img-button {
+    width: 148px;
+    height: 20px;
+  }
+}
+

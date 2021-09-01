@@ -1,0 +1,25 @@
+@import url(./__grid/offer__grid.css);
+@import url(./__el/offer__el.css);
+@import url(./__el/_first/offer__el_first.css);
+@import url(./__el/_second/offer__el_second.css);
+@import url(./__el/_third/offer__el_third.css);
+@import url(./__el/_fourth/offer__el_fourth.css);
+@import url(./__img-boy/offer__img-boy.css);
+@import url(./__img-girl/offer__img-girl.css);
+@import url(./__button-boy/offer__button-boy.css);
+@import url(./__img-button/offer__img-button.css);
+@import url(./__text/offer__text.css);
+@import url(./__button-girl/offer__button-girl.css);
+@import url(./__triangle/offer__triangle.css);
+
+.offer {
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .offer {
+    display: none;
+  }
+}

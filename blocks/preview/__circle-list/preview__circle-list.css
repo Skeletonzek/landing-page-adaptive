@@ -1,0 +1,9 @@
+.preview__circle-list {
+  --count: 5;
+  width: calc(30px * var(--count) - 20px);
+  display: flex;
+  margin: 32px auto;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}

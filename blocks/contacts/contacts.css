@@ -1,0 +1,20 @@
+@import url(./__container/contacts__container.css);
+@import url(./__form/contacts__form.css);
+@import url(./__form-text/contacts__form-text.css);
+@import url(./__form-input/contacts__form-input.css);
+@import url(./__form-submit/contacts__form-submit.css);
+@import url(./__social/contacts__social.css);
+@import url(./__social-text/contacts__social-text.css);
+@import url(./__social-list/contacts__social-list.css);
+@import url(./__social-list-el/contacts__social-list-el.css);
+@import url(./__link/contacts__link.css);
+
+.contacts {
+  background-color: #ededed;
+}
+
+@media screen and (max-width: 640px) {
+  .contacts {
+    background-color: #fff;
+  }
+}

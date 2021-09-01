@@ -1,0 +1,15 @@
+.links__grid {
+  display: flex;
+  justify-content: space-between;
+  max-width: 610px;
+  width: 60%;
+}
+
+@media screen and (max-width: 820px) {
+  .links__grid {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 158px);
+    gap: 45px;
+  }
+}

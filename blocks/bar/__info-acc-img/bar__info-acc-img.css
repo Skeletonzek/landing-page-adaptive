@@ -1,0 +1,25 @@
+.bar__info-acc-img {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 640px) {
+  .bar__info-acc-img {
+    width: 40px;
+    height: 38px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bar__info-acc-img {
+    width: 32px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .bar__info-acc-img {
+    width: 22px;
+    height: 20px;
+  }
+}
+

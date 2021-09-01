@@ -1,0 +1,10 @@
+.shop__item-img {
+  width: 100%;
+  height: 290px;
+}
+
+@media screen and (max-width: 640px) {
+  .shop__item-img {
+    height: 361px;
+  }
+}

@@ -1,0 +1,429 @@
+<!doctype HTML>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <title>Верстаем макет</title>
+</head>
+
+<body class="body">
+  <div class="bar">
+    <div class="bar__container">
+      <p class="bar__phone">custom care: <span class="bar__phone_num">888-23-4567</span></p>
+      <div class="bar__info">
+        <select class="bar__info-currency">
+          <option>&dollar; US</option>
+          <option>&utdot; ХЗ</option>
+        </select>
+        <button class="bar__info-acc">
+          <img class="bar__info-acc-img" src="./images/_User.png" alt="иконочка">
+          <span class="bar__info-acc_active">MY ACCOUNT</span>
+        </button>
+        <button class="bar__info-search">
+          <img class="bar__info-search-img" src="./images/search-bar.svg" alt="лупа">
+        </button>
+      </div>
+    </div>
+  </div>
+  <header class="header">
+    <div class="header__container">
+      <img class="header__logo" src="./images/header-logo.jpg" alt="Логотип">
+      <img class="header__logo header__logo_mobile" src="./images/header-logo-mobile.png" alt="Логотип">
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-list-el">
+            <p class="header__menu-link">new</p>
+            <img class="header__menu-img" src="./images/rectangle-menu.png" alt="треугольник">
+          </li>
+          <li class="header__menu-list-el">
+            <p class="header__menu-link">designers</p>
+            <img class="header__menu-img" src="./images/rectangle-menu.png" alt="треугольник">
+          </li>
+          <li class="header__menu-list-el">
+            <p class="header__menu-link">women</p>
+            <img class="header__menu-img" src="./images/rectangle-menu.png" alt="треугольник">
+          </li>
+          <li class="header__menu-list-el">
+            <p class="header__menu-link">men</p>
+            <img class="header__menu-img" src="./images/rectangle-menu.png" alt="треугольник">
+          </li>
+          <li class="header__menu-list-el">
+            <p class="header__menu-link">clearence</p>
+            <img class="header__menu-img" src="./images/rectangle-menu.png" alt="треугольник">
+          </li>
+        </ul>
+      </nav>
+      <div class="header__cart">
+        <select class="header__cart-name">
+          <option>Your cart</option>
+        </select>
+        <div class="header__cart-status">
+          <img class="header__cart-img" src="./images/cart.png" alt="корзина">
+          <div class="header__cart-container">
+            <p class="header__cart-text">0 ITEMS</p>
+            <p class="header__cart-text">&dollar; 0</p>
+          </div>
+        </div>
+      </div>
+      <button class="header__mobile">
+        <p class="header__mobile-text">MENU</p>
+        <img class="header__mobile-img" src="./images/menu-button.svg" alt="кнопка меню">
+      </button>
+    </div>
+  </header>
+  <main class="main">
+    <section class="preview">
+      <div class="preview__scroll">
+        <div class="preview__scroll-container">
+          <h1 class="preview__scroll-title">Crazy</h1>
+          <img class="preview__scroll-img" src="./images/label.png" alt="Crazy">
+          <p class="preview__scroll-text">woman collection</p>
+          <button class="preview__scroll-submit">
+            shop now <img class="preview__submit-img" src="./images/submit-img.png" alt="треугольник">
+          </button>
+        </div>
+        <img class="preview__scroll-bckgrnd" src="./images/background.png" alt="бэк">
+        <img class="preview__scroll-bckgrnd preview__scroll-bckgrnd_mobile" src="./images/background-mobile.png"
+          alt="бэк">
+        <div class="preview__scroll-bar"></div>
+        <button class="preview__scroll-button preview__scroll-button_left"></button>
+        <button class="preview__scroll-button preview__scroll-button_right"></button>
+      </div>
+      <div class="preview__circle">
+        <ul class="preview__circle-list">
+          <li class="preview__circle-el"></li>
+          <li class="preview__circle-el"></li>
+          <li class="preview__circle-el"></li>
+          <li class="preview__circle-el"></li>
+          <li class="preview__circle-el"></li>
+        </ul>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="contacts__container">
+        <form class="contacts__form">
+          <label class="contacts__form-text" for="email">Stay updated</label>
+          <input class="contacts__form-input" type="email" name="email" id="email" placeholder="Your email address"
+            minLength="6" maxLength="40">
+          <button class="contacts__form-submit" type="submit"></button>
+        </form>
+        <div class="contacts__social">
+          <p class="contacts__social-text">Find us here</p>
+          <ul class="contacts__social-list">
+            <li class="contacts__social-list-el"><a class="contacts__link" href="https://facebook.com/"></a></li>
+            <li class="contacts__social-list-el"><a class="contacts__link" href="https://twitter.com/"></a></li>
+            <li class="contacts__social-list-el"><a class="contacts__link" href="https://www.pinterest.com/"></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="offer">
+      <div class="offer__grid">
+        <article class="offer__el offer__el_first">
+          <img class="offer__img-boy" src="./images/grid-boy-text.png" alt="заголовок">
+        </article>
+        <article class="offer__el offer__el_second">
+          <img class="offer__img-girl" src="./images/grid-girl-text.png" alt="заголовок">
+        </article>
+        <article class="offer__el offer__el_third">
+          <button class="offer__button-girl">
+            <img class="offer__img-button" src="./images/grid-button.png" alt="кликни меня">
+          </button>
+        </article>
+        <article class="offer__el offer__el_fourth">
+          <p class="offer__text">fall leather</p>
+          <button class="offer__button-boy">
+            shop now <img class="offer__triangle" src="./images/submit-img.png" alt="треугольник">
+          </button>
+        </article>
+      </div>
+    </section>
+    <section class="shop">
+      <div class="shop__nav">
+        <button class="shop__nav-mobile">
+          what's hot <div class="shop__nav-arrow"></div>
+        </button>
+        <ul class="shop__category">
+          <li class="shop__category-text shop__category-text_active">what's hot?</li>
+          <li class="shop__category-text">designers</li>
+          <li class="shop__category-text">featured</li>
+          <li class="shop__category-text">latest</li>
+        </ul>
+        <div class="shop__button-container">
+          <button class="shop__scroll shop__scroll_left"></button>
+          <button class="shop__scroll shop__scroll_right"></button>
+        </div>
+      </div>
+      <div class="shop__items">
+        <article class="shop__item">
+          <div class="shop__popup">
+            <button class="shop__popup-button">
+              <img class="shop__popup-button-img" src="./images/shop-cart.png" alt="корзина">
+              shop it
+            </button>
+          </div>
+          <img class="shop__item-img" src="./images/cloths-1.png" alt="шмотка">
+          <h2 class="shop__item-title">MIMOSA LACE DRESS</h2>
+          <p class="shop__item-text">&dollar;76.95</p>
+          <button class="shop__item-button">
+            add to cart <img class="shop__plus" src="./images/plus-submit.svg" alt="плюс">
+          </button>
+        </article>
+        <article class="shop__item">
+          <div class="shop__popup">
+            <button class="shop__popup-button">
+              <img class="shop__popup-button-img" src="./images/shop-cart.png" alt="корзина">
+              shop it
+            </button>
+          </div>
+          <img class="shop__item-img" src="./images/cloths-1.png" alt="шмотка">
+          <h2 class="shop__item-title">MIMOSA LACE DRESS</h2>
+          <p class="shop__item-text">&dollar;76.95</p>
+          <button class="shop__item-button">
+            add to cart <img class="shop__plus" src="./images/plus-submit.svg" alt="плюс">
+          </button>
+        </article>
+        <article class="shop__item">
+          <img class="shop__sale" src="./images/sale.png" alt="скидка">
+          <div class="shop__popup">
+            <button class="shop__popup-button">
+              <img class="shop__popup-button-img" src="./images/shop-cart.png" alt="корзина">
+              shop it
+            </button>
+          </div>
+          <img class="shop__item-img" src="./images/cloths-2.png" alt="шмотка">
+          <h2 class="shop__item-title">FEEL TANK</h2>
+          <p class="shop__item-text">&dollar;59.95</p>
+          <button class="shop__item-button">
+            add to cart <img class="shop__plus" src="./images/plus-submit.svg" alt="плюс">
+          </button>
+        </article>
+        <article class="shop__item">
+          <div class="shop__popup shop__popup_active">
+            <button class="shop__popup-button">
+              <img class="shop__popup-button-img" src="./images/shop-cart.png" alt="корзина">
+              shop it
+            </button>
+          </div>
+          <img class="shop__item-img" src="./images/cloths-3.png" alt="шмотка">
+          <h2 class="shop__item-title">HOT SHORTS</h2>
+          <p class="shop__item-text">&dollar;35.95</p>
+          <button class="shop__item-button">
+            add to cart <img class="shop__plus" src="./images/plus-submit.svg" alt="плюс">
+          </button>
+        </article>
+        <article class="shop__item">
+          <img class="shop__sale" src="./images/sale.png" alt="скидка">
+          <div class="shop__popup">
+            <button class="shop__popup-button">
+              <img class="shop__popup-button-img" src="./images/shop-cart.png" alt="корзина">
+              shop it
+            </button>
+          </div>
+          <img class="shop__item-img" src="./images/cloths-4.png" alt="шмотка">
+          <h2 class="shop__item-title">PETROL SWEATER</h2>
+          <p class="shop__item-text">&dollar;21.50</p>
+          <button class="shop__item-button">
+            add to cart <img class="shop__plus" src="./images/plus-submit.svg" alt="плюс">
+          </button>
+        </article>
+        <article class="shop__item">
+          <img class="shop__sale" src="./images/sale.png" alt="скидка">
+          <div class="shop__popup">
+            <button class="shop__popup-button">
+              <img class="shop__popup-button-img" src="./images/shop-cart.png" alt="корзина">
+              shop it
+            </button>
+          </div>
+          <img class="shop__item-img" src="./images/cloths-4.png" alt="шмотка">
+          <h2 class="shop__item-title">PETROL SWEATER</h2>
+          <p class="shop__item-text">&dollar;21.50</p>
+          <button class="shop__item-button">
+            add to cart <img class="shop__plus" src="./images/plus-submit.svg" alt="плюс">
+          </button>
+        </article>
+      </div>
+      <div class="shop__mobile-container">
+        <button class="shop__mobile-more">load more</button>
+      </div>
+    </section>
+    <section class="shop-sale">
+      <div class="shop-sale__img"></div>
+      <div class="shop__items shop-sale__item">
+        <article class="shop__item">
+          <div class="shop__popup">
+            <button class="shop__popup-button">
+              <img class="shop__popup-button-img" src="./images/shop-cart.png" alt="корзина">
+              shop it
+            </button>
+          </div>
+          <img class="shop__item-img" src="./images/cloths-1.png" alt="шмотка">
+          <h2 class="shop__item-title">MIMOSA LACE DRESS</h2>
+          <p class="shop__item-text">&dollar;76.95</p>
+          <button class="shop__item-button">
+            add to cart <img class="shop__plus" src="./images/plus-submit.svg" alt="плюс">
+          </button>
+        </article>
+        <article class="shop__item">
+          <div class="shop__popup">
+            <button class="shop__popup-button">
+              <img class="shop__popup-button-img" src="./images/shop-cart.png" alt="корзина">
+              shop it
+            </button>
+          </div>
+          <img class="shop__item-img" src="./images/cloths-1.png" alt="шмотка">
+          <h2 class="shop__item-title">MIMOSA LACE DRESS</h2>
+          <p class="shop__item-text">&dollar;76.95</p>
+          <button class="shop__item-button">
+            add to cart <img class="shop__plus" src="./images/plus-submit.svg" alt="плюс">
+          </button>
+        </article>
+        <article class="shop__item">
+          <img class="shop__sale" src="./images/sale.png" alt="скидка">
+          <div class="shop__popup">
+            <button class="shop__popup-button">
+              <img class="shop__popup-button-img" src="./images/shop-cart.png" alt="корзина">
+              shop it
+            </button>
+          </div>
+          <img class="shop__item-img" src="./images/cloths-2.png" alt="шмотка">
+          <h2 class="shop__item-title">FEEL TANK</h2>
+          <p class="shop__item-text">&dollar;59.95</p>
+          <button class="shop__item-button">
+            add to cart <img class="shop__plus" src="./images/plus-submit.svg" alt="плюс">
+          </button>
+        </article>
+        <article class="shop__item">
+          <div class="shop__popup shop__popup_active">
+            <button class="shop__popup-button">
+              <img class="shop__popup-button-img" src="./images/shop-cart.png" alt="корзина">
+              shop it
+            </button>
+          </div>
+          <img class="shop__item-img" src="./images/cloths-3.png" alt="шмотка">
+          <h2 class="shop__item-title">HOT SHORTS</h2>
+          <p class="shop__item-text">&dollar;35.95</p>
+          <button class="shop__item-button">
+            add to cart <img class="shop__plus" src="./images/plus-submit.svg" alt="плюс">
+          </button>
+        </article>
+      </div>
+      <div class="shop__mobile-container shop-sale__mobile-container">
+        <button class="shop__mobile-more">load more</button>
+      </div>
+    </section>
+    <section class="brands">
+      <div class="brands__title">
+        <div class="brands__bar"></div>favourite brands<div class="brands__bar"></div>
+      </div>
+      <div class="brands__container">
+        <img class="brands__img" src="./images/addict.png" alt="бренд">
+        <img class="brands__img" src="./images/abandon.png" alt="бренд">
+        <img class="brands__img" src="./images/adidas.png" alt="бренд">
+        <img class="brands__img" src="./images/boy.png" alt="бренд">
+        <img class="brands__img" src="./images/converse.png" alt="бренд">
+        <img class="brands__img" src="./images/calvin.png" alt="бренд">
+        <img class="brands__img" src="./images/edwin.png" alt="бренд">
+        <img class="brands__img" src="./images/grenson.png" alt="бренд">
+      </div>
+    </section>
+    <section class="about">
+      <h2 class="about__title">About LookShop</h2>
+      <p class="about__text">This is Photoshop's version of Lorem Ipsum.
+        Proin gravida nibh vel velit auctor aliquet.
+        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+        Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+        Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+        Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. </p>
+    </section>
+    <section class="accept">
+      <p class="accept__text">We accept</p>
+      <img class="accept__img" src="./images/cards.png" alt="картОчки">
+    </section>
+    <section class="info">
+      <div class="links">
+        <div class="links__grid">
+          <div class="links__container">
+            <h2 class="links__title">Customer Service</h2>
+            <ul class="links__list">
+              <li class="links__wrapper"><a class="links__link" href="">Contact</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">FAQ</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">Terms of payment</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">Terms of sale</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">Delivery terms and conditions</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">Returns and Refunds</a></li>
+            </ul>
+          </div>
+          <div class="links__container">
+            <h2 class="links__title">Information</h2>
+            <ul class="links__list">
+              <li class="links__wrapper"><a class="links__link" href="">Affiliate</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">Cookies</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">How to Shop</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">About Nelly</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">Investor relations</a></li>
+            </ul>
+          </div>
+          <div class="links__container">
+            <h2 class="links__title">Campaigns</h2>
+            <ul class="links__list">
+              <li class="links__wrapper"><a class="links__link" href="">Evening dresses</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">Makeup</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">Fashion forward</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">Training clothes</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">Special Occasion Dresses</a></li>
+            </ul>
+          </div>
+          <div class="links__container">
+            <h2 class="links__title">Stores</h2>
+            <ul class="links__list">
+              <li class="links__wrapper"><a class="links__link" href="">Paris</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">New York</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">London</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">Madrid</a></li>
+              <li class="links__wrapper"><a class="links__link" href="">Tokio</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="links__container">
+          <h2 class="links__title">Social</h2>
+          <ul class="links__list links__list_social">
+            <li class="links__wrapper links__wrapper_social"><a class="links__link links__link_social" href=""></a></li>
+            <li class="links__wrapper links__wrapper_social"><a class="links__link links__link_social" href=""></a></li>
+            <li class="links__wrapper links__wrapper_social"><a class="links__link links__link_social" href=""></a></li>
+            <li class="links__wrapper links__wrapper_social"><a class="links__link links__link_social" href=""></a></li>
+            <li class="links__wrapper links__wrapper_social"><a class="links__link links__link_social" href=""></a></li>
+            <li class="links__wrapper links__wrapper_social"><a class="links__link links__link_social" href=""></a></li>
+          </ul>
+        </div>
+        <img class="info__img" src="./images/info-img.png" alt="защита">
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__menu-container">
+        <button class="footer__button"></button>
+        <nav class="footer__menu">
+          <ul class="footer__list">
+            <li class="footer__links"><a class="footer__link" href="">Privacy &amp; Cookies</a></li>
+            <li class="footer__links"><a class="footer__link" href="">Terms &amp; Conditions</a></li>
+            <li class="footer__links"><a class="footer__link" href="">Accessibility</a></li>
+            <li class="footer__links"><a class="footer__link" href="">Store Directory</a></li>
+            <li class="footer__links"><a class="footer__link" href="">About Us</a></li>
+          </ul>
+          <div class="footer__mobile-spacer"></div>
+        </nav>
+      </div>
+      <p class="footer__copyright">
+        &copy; LookShop.com
+        All Rights Reserved
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Champagne&Limousines';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./Champagne&Limousines/Champagne&Limousines.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: 'Champagne&Limousines';
+    font-style:  italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./Champagne&Limousines/Champagne&Limousines-Italic.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: 'Champagne&Limousines';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./Champagne&Limousines/Champagne&Limousines-Bold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: 'Champagne&Limousines';
+    font-style:  italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./Champagne&Limousines/Champagne&Limousines-Bold-Italic.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./Lato/Lato-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./Lato/Lato-Bold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./Lato/Lato-Black.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: 'Honey Script';
+    font-style:  normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("./HoneyScript/HoneyScript-Light.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: 'Luxury Royale';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./LuxuryRoyale/LuxuryRoyale-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: 'Helvetica Nueu';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./HelveticaNeueLT/HelveticaNeueLT.otf") format("opentype");
+  }
+
+

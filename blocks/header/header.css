@@ -1,0 +1,38 @@
+@import url(./__container/header__container.css);
+@import url(./__logo/header__logo.css);
+@import url(./__logo/_mobile/header__logo_mobile.css);
+@import url(./__menu/header__menu.css);
+@import url(./__menu-list/header__menu-list.css);
+@import url(./__menu-list-el/header__menu-list-el.css);
+@import url(./__menu-link/header__menu-link.css);
+@import url(./__menu-img/header__menu-img.css);
+@import url(./__cart/header__cart.css);
+@import url(./__cart-name/header__cart-name.css);
+@import url(./__cart-status/header__cart-status.css);
+@import url(./__cart-img/header__cart-img.css);
+@import url(./__cart-container/header__cart-container.css);
+@import url(./__cart-text/header__cart-text.css);
+@import url(./__mobile/header__mobile.css);
+@import url(./__mobile-text/header__mobile-text.css);
+@import url(./__mobile-img/header__mobile-img.css);
+
+.header {
+  display: flex;
+  min-height: 106px;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 30px;
+  align-items: center;
+}
+
+@media screen and (max-width: 820px) {
+  .header {
+    min-height: 173px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header {
+    margin-top: 0;
+  }
+}

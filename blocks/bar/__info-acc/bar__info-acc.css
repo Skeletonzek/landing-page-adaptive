@@ -1,0 +1,42 @@
+.bar__info-acc {
+  display: flex;
+  color: #ffffff;
+  font-family: 'Lato';
+  font-size: 11px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: #000;
+  border: none;
+  border-left: 1px solid gray;
+  align-items: center;
+  padding: 0 15px 0 14px;
+}
+
+.bar__info-acc:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .bar__info-acc {
+    width: 60%;
+    font-size: 30px;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bar__info-acc {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .bar__info-acc {
+    width: 55%;
+    font-size: 13px;
+  }
+}

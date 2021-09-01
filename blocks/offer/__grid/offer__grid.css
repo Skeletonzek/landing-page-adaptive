@@ -1,0 +1,27 @@
+.offer__grid {
+  display: grid;
+  grid-template-areas:
+  "boy boy girl girl"
+  "boy boy girl2 boy2";
+  grid-template-columns: repeat(4, 241px);
+  grid-template-rows: repeat(2, 169px);
+  width: calc(100% - 30px);
+  max-width: 970px;
+  margin: 40px auto 51px;
+}
+
+@media screen and (max-width: 1000px) {
+  .offer__grid {
+    justify-content: center;
+    grid-template-columns: repeat(4, 183px);
+    grid-template-rows: repeat(2, 128px);
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .offer__grid {
+    justify-content: center;
+    grid-template-columns: repeat(4, 152px);
+    grid-template-rows: repeat(2, 107px);
+  }
+}

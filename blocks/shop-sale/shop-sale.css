@@ -1,0 +1,14 @@
+@import url(./__img/shop-sale__img.css);
+@import url(./__item/shop-sale__item.css);
+@import url(./__mobile-container/shop-sale__mobile-container.css);
+
+.shop-sale {
+  width: 100%;
+  margin: 24px 0 62px;
+}
+
+@media screen and (max-width: 640px) {
+  .shop-sale {
+    margin-bottom: 0;
+  }
+}

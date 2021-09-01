@@ -1,0 +1,59 @@
+.bar__info-currency {
+  color: #ffffff;
+  font-family: 'Lato';
+  font-size: 11px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: #000;
+  appearance: none;
+  background-image: url(../../../images/rectangle.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 0 14px 0 0;
+  padding: 0 13px 0 15px;
+  border: none;
+  border-left: 1px solid gray;
+
+}
+
+.bar__info-currency:focus-visible {
+  outline: none;
+}
+
+.bar__info-currency:active {
+  background-size: 10%;
+}
+
+.bar__info-currency:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .bar__info-currency {
+    background-image: url(../../../images/rectangle-mobile.png);
+    font-size: 30px;
+    width: 25%;
+    margin-right: 26px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bar__info-currency {
+    font-size: 25px;
+    margin-right: 18px;
+    padding-left: 18px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .bar__info-currency {
+    font-size: 17px;
+    background-image: url(../../../images/rectangle-mobile-2.png);
+    margin-right: 14px;
+  }
+}

@@ -1,0 +1,26 @@
+.bar__info-search {
+  background-color: #000;
+  border: none;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  margin: 0;
+  padding: 8px 10px 7px 9px;
+  line-height: 0;
+  outline: none;
+}
+
+.bar__info-search:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .bar__info-search {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .bar__info-search {
+    width: 20%;
+  }
+}

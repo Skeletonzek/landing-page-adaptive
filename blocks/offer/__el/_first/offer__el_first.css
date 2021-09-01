@@ -1,0 +1,5 @@
+.offer__el_first {
+  background-image: url(../../../../images/grid-boy.png);
+  grid-area: boy;
+  justify-content: flex-end;
+}

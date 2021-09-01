@@ -1,0 +1,97 @@
+.contacts__social-list-el {
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contacts__social-list-el:hover {
+  opacity: .5;
+  transition: opacity .5s linear;
+  cursor: pointer;
+}
+
+.contacts__social-list-el:active {
+  background-size: 15%;
+}
+
+.contacts__social-list-el:nth-of-type(2):active {
+  background-size: 35%;
+}
+
+.contacts__social-list-el:last-of-type:active {
+  background-size: 37%;
+}
+
+
+.contacts__social-list-el:first-of-type {
+  background-color: #f7f7f7;
+  background-image: url(../../../images/facebook.svg);
+}
+
+.contacts__social-list-el:nth-of-type(2) {
+  background-color: #ededed;
+  background-image: url(../../../images/twitter.svg);
+}
+
+.contacts__social-list-el:last-of-type {
+  background-color: #f7f7f7;
+  background-image: url(../../../images/xzchtoeto.svg);
+}
+
+@media screen and (max-width: 640px) {
+  .contacts__social-list-el {
+    width: 88px;
+    height: 88px;
+  }
+  .contacts__social-list-el:first-of-type {
+    background-size: 15px;
+  }
+
+  .contacts__social-list-el:nth-of-type(2) {
+    background-size: 33px;
+  }
+
+  .contacts__social-list-el:last-of-type {
+    background-size: 35px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .contacts__social-list-el {
+    width: 68px;
+    height: 68px;
+  }
+  .contacts__social-list-el:first-of-type {
+    background-size: 12px;
+  }
+
+  .contacts__social-list-el:nth-of-type(2) {
+    background-size: 30px;
+  }
+
+  .contacts__social-list-el:last-of-type {
+    background-size: 32px;
+  }
+
+}
+@media screen and (max-width: 385px) {
+  .contacts__social-list-el {
+    width: 48px;
+    height: 48px;
+  }
+  .contacts__social-list-el:first-of-type {
+    background-size: 10px;
+  }
+
+  .contacts__social-list-el:nth-of-type(2) {
+    background-size: 25px;
+  }
+
+  .contacts__social-list-el:last-of-type {
+    background-size: 26px;
+  }
+
+}
+

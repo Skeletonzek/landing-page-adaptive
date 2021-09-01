@@ -1,0 +1,9 @@
+.preview__scroll-container {
+  display: flex;
+  max-width: 35%;
+  width: fit-content;
+  min-width: 253px;
+  flex-direction: column;
+  align-items: center;
+  margin: 43px 56% 59px 0;
+}

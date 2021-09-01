@@ -1,0 +1,31 @@
+.header__cart {
+  display: flex;
+  flex-direction: column;
+  width: 215px;
+  min-height: 66px;
+  border: 1px solid #949393;
+  box-sizing: border-box;
+  background-color: #fafafa;
+}
+
+@media screen and (max-width: 640px) {
+  .header__cart {
+    width: 100%;
+    min-height: 96px;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 23px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__cart {
+    min-height: 76px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .header__cart {
+    min-height: 56px;
+  }
+}

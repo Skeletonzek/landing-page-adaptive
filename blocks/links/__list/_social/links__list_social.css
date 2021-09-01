@@ -1,0 +1,5 @@
+.links__list_social {
+  display: grid;
+  grid-template-columns: repeat(3, 35px);
+  gap: 10px;
+}

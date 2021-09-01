@@ -1,0 +1,28 @@
+.offer__button-girl {
+  width: 168px;
+  height: 25px;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+.offer__button-girl:hover {
+  opacity: .5;
+  transition: opacity .5s linear;
+  cursor: pointer;
+}
+
+.offer__button-girl:active {
+  transform: scale(.8);
+}
+
+
+@media screen and (max-width: 1000px) {
+  .offer__button-girl {
+    width: 148px;
+    height: 20px;
+  }
+}

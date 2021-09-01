@@ -1,0 +1,28 @@
+@import url(./__container/bar__container.css);
+@import url(./__phone/bar__phone.css);
+@import url(./__phone/_num/bar__phone_num.css);
+@import url(./__info/bar__info.css);
+@import url(./__info-currency/bar__info-currency.css);
+@import url(./__info-acc/bar__info-acc.css);
+@import url(./__info-acc/_active/bar__info-acc_active.css);
+@import url(./__info-acc-img/bar__info-acc-img.css);
+@import url(./__info-search/bar__info-search.css);
+@import url(./__info-search-img/bar__info-search-img.css);
+
+.bar {
+  max-width: 1200px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #000;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 640px) {
+  .bar {
+    position: static;
+    transform: none;
+  }
+}

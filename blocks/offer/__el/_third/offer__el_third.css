@@ -1,0 +1,7 @@
+.offer__el_third {
+  background-image: url(../../../../images/grid-girl-2.png);
+  grid-area: girl2;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}

@@ -1,0 +1,36 @@
+@import url(./__container/footer__container.css);
+@import url(./__menu-container/footer__menu-container.css);
+@import url(./__menu/footer__menu.css);
+@import url(./__button/footer__button.css);
+@import url(./__list/footer__list.css);
+@import url(./__links/footer__links.css);
+@import url(./__link/footer__link.css);
+@import url(./__copyright/footer__copyright.css);
+
+.footer {
+  position: relative;
+  background-color: #000;
+  padding: 24px 0;
+}
+
+.footer__mobile-spacer {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .footer {
+    padding: 28px 0;
+  }
+
+  .footer__mobile-spacer {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .footer {
+    padding: 14px 0;
+  }
+}
+
+

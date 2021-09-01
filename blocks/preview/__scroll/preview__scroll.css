@@ -1,0 +1,6 @@
+.preview__scroll {
+  display: flex;
+  background-color: #f6f3ec;
+  position: relative;
+  justify-content: flex-end;
+}

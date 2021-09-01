@@ -1,0 +1,17 @@
+@import url(./__text/accept__text.css);
+@import url(./__img/accept__img.css);
+
+.accept {
+  background-color: #f7f7f7;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 0 17px;
+}
+
+@media screen and (max-width: 640px) {
+  .accept {
+    display: none;
+  }
+}

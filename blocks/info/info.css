@@ -1,0 +1,15 @@
+@import url(./__img/info__img.css);
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #ededed;
+  padding: 35px 0;
+}
+
+@media screen and (max-width: 640px) {
+  .info {
+    display: none;
+  }
+}

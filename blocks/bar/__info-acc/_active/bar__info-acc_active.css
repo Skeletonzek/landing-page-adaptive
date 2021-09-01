@@ -1,0 +1,8 @@
+.bar__info-acc_active:hover {
+  opacity: .5;
+  transition: opacity .5s linear;
+}
+
+.bar__info-acc_active:active {
+  transform: scale(.8);
+}

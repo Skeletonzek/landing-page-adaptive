@@ -1,0 +1,54 @@
+.contacts__form-submit {
+  width: 28px;
+  height: 26px;
+  box-shadow: 0 3px 0 #dd6b44;
+  background-color: #fd926d;
+  background-image: url(../../../images/plus-submit.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  transform: translate(0, -1px);
+}
+
+.contacts__form-submit:active {
+  transform: scale(.8);
+}
+
+.contacts__form-submit:hover {
+  opacity: .5;
+  transition: opacity .5s linear;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .contacts__form-submit {
+    width: 96px;
+    height: 88px;
+    box-shadow: 0 8px 0 #dd6b44;
+    background-size: 37px;
+    transform: translate(0, -4px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contacts__form-submit {
+    width: 76px;
+    height: 70px;
+    box-shadow: 0 6px 0 #dd6b44;
+    background-size: 32px;
+    transform: translate(0, -3px);
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .contacts__form-submit {
+    width: 56px;
+    height: 52px;
+    box-shadow: 0 4px 0 #dd6b44;
+    background-size: 27px;
+    transform: translate(0, -2px);
+  }
+}

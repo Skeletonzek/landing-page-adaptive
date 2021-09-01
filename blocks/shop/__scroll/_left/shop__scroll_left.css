@@ -1,0 +1,7 @@
+.shop__scroll_left {
+  background-image: url(../../../../images/arrow-shop-left.png);
+}
+
+.shop__scroll_left:active {
+  background-image: url(../../../../images/arrow-shop-left-active.png);
+}

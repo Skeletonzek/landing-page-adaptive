@@ -1,0 +1,9 @@
+.preview__scroll-bckgrnd_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .preview__scroll-bckgrnd_mobile {
+    display: block;
+  }
+}

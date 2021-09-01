@@ -1,0 +1,9 @@
+.shop__button-container {
+  display: flex;
+}
+
+@media screen and (max-width: 640px) {
+  .shop__button-container {
+    display: none;
+  }
+}

@@ -1,0 +1,18 @@
+.header__logo_mobile {
+  display: none;
+  width: 358px;
+  height: 88px;
+  margin-bottom: 54px;
+}
+
+@media screen and (max-width: 640px) {
+  .header__logo_mobile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .header__logo_mobile {
+    width: 100%;
+  }
+}

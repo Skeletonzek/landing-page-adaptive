@@ -1,0 +1,6 @@
+.offer__el_fourth {
+  background-image: url(../../../../images/grid-boy-2.png);
+  grid-area: boy2;
+  flex-direction: column;
+  justify-content: flex-end;
+}

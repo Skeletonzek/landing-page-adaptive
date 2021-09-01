@@ -1,0 +1,23 @@
+.shop__nav-arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+  margin: 13px 31px 0 0;
+}
+
+@media screen and (max-width: 500px) {
+  .shop__nav-arrow {
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 9px;
+    margin-top: 9px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .shop__nav-arrow {
+    margin-top: 8px;
+  }
+}

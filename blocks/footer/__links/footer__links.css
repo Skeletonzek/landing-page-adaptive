@@ -1,0 +1,21 @@
+.footer__links {
+  height: fit-content;
+  padding-right: 10px;
+  border-right: 1px solid #8d8d8d;
+  padding-left: 10px;
+}
+
+.footer__links:first-of-type {
+  padding-left: 0;
+}
+
+.footer__links:last-of-type {
+  padding-right: 0;
+  border-right: none;
+}
+
+@media screen and (max-width: 640px) {
+  .footer__links:first-of-type {
+    padding-left: 10px;
+  }
+}

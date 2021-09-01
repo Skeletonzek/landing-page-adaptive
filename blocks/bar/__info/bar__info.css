@@ -1,0 +1,23 @@
+.bar__info {
+  display: flex;
+  justify-content: stretch;
+}
+
+@media screen and (max-width: 640px) {
+  .bar__info {
+    min-height: 96px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bar__info {
+    min-height: 76px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .bar__info {
+    min-height: 56px;
+  }
+}
+

@@ -1,0 +1,22 @@
+.shop__scroll {
+  width: 47px;
+  height: 47px;
+  outline: none;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.shop__scroll:active {
+  background-color: #fd926d;
+}
+
+.shop__scroll:hover {
+  opacity: .5;
+  transition: opacity .5s linear;
+  cursor: pointer;
+}
+

@@ -1,0 +1,37 @@
+.footer__button {
+  display: none;
+  width: 33px;
+  height: 30px;
+  background-image: url(../../../images/menu-button.svg);
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+.footer__button:hover {
+  opacity: .5;
+  transition: opacity .5s linear;
+  cursor: pointer;
+}
+
+.footer__button:active {
+  transform: scale(.8);
+}
+
+@media screen and (max-width: 640px) {
+  .footer__button {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .footer__button {
+    width: 28px;
+    height: 25px;
+  }
+}

@@ -1,0 +1,18 @@
+@import url(./__grid/links__grid.css);
+@import url(./__container/links__container.css);
+@import url(./__title/links__title.css);
+@import url(./__list/links__list.css);
+@import url(./__wrapper/links__wrapper.css);
+@import url(./__wrapper/_social/links__wrapper_social.css);
+@import url(./__link/links__link.css);
+@import url(./__list/_social/links__list_social.css);
+@import url(./__link/_social/links__link_social.css);
+
+.links {
+  width: calc(100% - 30px);
+  max-width: 970px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -1,0 +1,9 @@
+.shop-sale__img {
+  display: flex;
+  width: 100%;
+  max-width: 970px;
+  height: 157px;
+  margin: 0 auto;
+  background-image: url(../../../images/shop-sale.png);
+  background-position: center;
+}

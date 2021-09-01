@@ -1,0 +1,16 @@
+.bar__container {
+  max-width: 970px;
+  width: calc(100% - 30px);
+  margin: 0 auto;
+  min-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+@media screen and (max-width: 640px) {
+  .bar__container {
+    flex-direction: column;
+    width: 100%;
+  }
+}

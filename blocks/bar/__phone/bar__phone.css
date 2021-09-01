@@ -1,0 +1,38 @@
+.bar__phone {
+  color: #ffffff;
+  font-family: 'Lato';
+  font-size: 11px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .bar__phone {
+    color: #838383;
+    line-height: 96px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bar__phone {
+    color: #838383;
+    line-height: 76px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .bar__phone {
+    line-height: 56px;
+  }
+}
+

@@ -1,0 +1,14 @@
+.brands__bar {
+  width: calc(50% - 93px);
+  height: 1px;
+  background-color: #b2b2b2;
+  opacity: .5;
+}
+
+.brands__bar:first-of-type {
+  margin-right: 20px;
+}
+
+.brands__bar:last-of-type {
+  margin-left: 20px;
+}

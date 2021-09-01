@@ -1,0 +1,14 @@
+.shop__nav {
+  max-width: 970px;
+  width: calc(100% - 30px);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+  .shop__nav {
+    width: 100%;
+  }
+}

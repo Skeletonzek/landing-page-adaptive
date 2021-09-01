@@ -1,0 +1,25 @@
+.shop__items {
+  display: flex;
+  background-color: #fd926d;
+  overflow: hidden;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+@media screen and (max-width: 820px) {
+  .shop__items {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .shop__items {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 275px);
+    gap: 32px;
+    justify-content: center;
+    padding-top: 33px;
+  }
+}
+

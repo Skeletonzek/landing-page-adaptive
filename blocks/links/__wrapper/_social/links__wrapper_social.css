@@ -1,0 +1,28 @@
+.links__wrapper_social {
+  width: 35px;
+  height: 34px;
+}
+
+.links__wrapper_social:first-of-type {
+  background-image: url(../../../../images/info-twitter.png);
+}
+
+.links__wrapper_social:nth-of-type(2) {
+  background-image: url(../../../../images/info-pinterest.png);
+}
+
+.links__wrapper_social:nth-of-type(3) {
+  background-image: url(../../../../images/info-facebook.png);
+}
+
+.links__wrapper_social:nth-of-type(4) {
+  background-image: url(../../../../images/info-google.png);
+}
+
+.links__wrapper_social:nth-of-type(5) {
+  background-image: url(../../../../images/info-tumblr.png);
+}
+
+.links__wrapper_social:last-of-type {
+  background-image: url(../../../../images/info-v.png);
+}

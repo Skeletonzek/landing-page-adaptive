@@ -1,0 +1,26 @@
+@import url(./__scroll/preview__scroll.css);
+@import url(./__scroll-container/preview__scroll-container.css);
+@import url(./__scroll-title/preview__scroll-title.css);
+@import url(./__scroll-img/preview__scroll-img.css);
+@import url(./__scroll-text/preview__scroll-text.css);
+@import url(./__scroll-submit/preview__scroll-submit.css);
+@import url(./__submit-img/preview__submit-img.css);
+@import url(./__scroll-bckgrnd/preview__scroll-bckgrnd.css);
+@import url(./__scroll-bckgrnd/_mobile/preview__scroll-bckgrnd_mobile.css);
+@import url(./__scroll-bar/preview__scroll-bar.css);
+@import url(./__scroll-button/preview__scroll-button.css);
+@import url(./__scroll-button/_left/preview__scroll-button_left.css);
+@import url(./__scroll-button/_right/preview__scroll-button_right.css);
+@import url(./__circle/preview__circle.css);
+@import url(./__circle-list/preview__circle-list.css);
+@import url(./__circle-el/preview__circle-el.css);
+
+.preview {
+  width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .preview {
+    display: none;
+  }
+}

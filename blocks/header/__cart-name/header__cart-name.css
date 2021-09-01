@@ -1,0 +1,36 @@
+.header__cart-name {
+  color: #949393;
+  font-family: 'Lato';
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  appearance: none;
+  background-color: #fafafa;
+  background-image: url(../../../images/rectangle.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 0;
+  margin: 9px 12px 9px 9px;
+  border: none;
+}
+
+.header__cart-name:focus-visible {
+  outline: none;
+}
+
+.header__cart-name:active {
+  background-size: 2%;
+}
+
+.header__cart-name:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .header__cart-name {
+    display: none;
+  }
+}

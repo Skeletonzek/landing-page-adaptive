@@ -1,0 +1,13 @@
+.footer__menu {
+  height: fit-content;
+}
+
+@media screen and (max-width: 640px) {
+  .footer__menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: black;
+  }
+}

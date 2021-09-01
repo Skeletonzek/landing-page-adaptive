@@ -1,0 +1,14 @@
+.about__text {
+  width: calc(100% - 30px);
+  max-width: 970px;
+  color: #999999;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 27px;
+}

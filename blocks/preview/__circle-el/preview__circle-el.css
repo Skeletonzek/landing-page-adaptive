@@ -1,0 +1,10 @@
+.preview__circle-el {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #867a76;
+}
+
+.preview__circle-el:nth-of-type(2) {
+  background-color: #fd926d;
+}

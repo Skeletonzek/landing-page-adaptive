@@ -1,0 +1,38 @@
+.shop__nav-mobile {
+  display: none;
+  justify-content: space-between;
+  width: 100%;
+  color: #ffffff;
+  font-family: "Lato";
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 26px 0 26px 31px;
+  border: none;
+  outline: none;
+  background-color: #f4845d;
+}
+
+@media screen and (max-width: 640px) {
+  .shop__nav-mobile {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .shop__nav-mobile {
+    font-size: 20px;
+    padding: 22px 0 22px 31px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .shop__nav-mobile {
+    padding: 16px 0 16px 31px;
+  }
+}
+
